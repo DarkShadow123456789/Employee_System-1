@@ -57,7 +57,7 @@ ROOT_URLCONF = 'emp_man_proj.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join('C:\\Users\\Amol\\Desktop\\Amol_Django_Projects\\emp_man_proj\\emp_man_app\\templates')],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
